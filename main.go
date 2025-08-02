@@ -1,10 +1,13 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
+    "os"
 )
 
 func main() {
-	fmt.Println("Hello, World!")
-}
 
+	baseCommand := os.Args[1]
+
+    fmt.Println(baseCommand)
+}
